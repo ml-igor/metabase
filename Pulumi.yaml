@@ -6,6 +6,7 @@ runtime:
     toolchain: uv
 config:
   gcp:project: ariz-function-prd
+  metabase:vpc_network: ram-a-tec-stg-enablers-vpc
   metabase:vpc_connector_name: ram-ng-sec-fidc-vpc-conn
   metabase:vpc_egress: ALL_TRAFFIC
   pulumi:tags:

@@ -11,4 +11,5 @@ config:
     secure: v1:IJGoh3GgLVUfjP/i:ZJcd7+09Ftq8A2GUE4//xu8EnrxNfeVS
   metabase:db_pass:
     secure: v1:P4R/FhkBQnAF6QEq:Yu+vXMiWAIYzrQbvDz8z3CETeirJ+qzi
-  metabase:region: us-east1
+  gcp:region: us-east1
+  metabase:request_timeout: "600"
