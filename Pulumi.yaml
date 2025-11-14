@@ -1,0 +1,13 @@
+name: metabase
+description: Metabase deploy
+runtime:
+  name: python
+  options:
+    toolchain: uv
+config:
+  gcp:project: ariz-function-prd
+  metabase:vpc_connector_name: ram-ng-sec-fidc-vpc-conn
+  metabase:vpc_egress: ALL_TRAFFIC
+  pulumi:tags:
+    value:
+      pulumi:template: python

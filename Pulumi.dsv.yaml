@@ -1,0 +1,14 @@
+encryptionsalt: v1:XFMKq6WJ80E=:v1:ReJdy0nXtsn0VYBc:A25FCxsG7ZiKwubu5IrkHPXkwX2klg==
+config:
+  metabase:db_type: postgres
+  metabase:db_host:
+    secure: v1:grLD5l5bqYFD/lz1:CmbXfAehlZTmj31cCal2ieQ8eEP3sXShdG5d/jrk6cjQEFO7
+  metabase:db_port:
+    secure: v1:8sqdUa8upt+pHnUk:qIv7Pw7U1XR0Y75+m0V+uCU9Ajev
+  metabase:db_name:
+    secure: v1:ISwaR9aXASXb2mnk:DyNblT6BMQyI7dUZKSOuNlalqS/bz4eS
+  metabase:db_user:
+    secure: v1:IJGoh3GgLVUfjP/i:ZJcd7+09Ftq8A2GUE4//xu8EnrxNfeVS
+  metabase:db_pass:
+    secure: v1:P4R/FhkBQnAF6QEq:Yu+vXMiWAIYzrQbvDz8z3CETeirJ+qzi
+  metabase:region: us-east1
